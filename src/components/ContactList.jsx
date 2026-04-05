@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { TextField, List } from '@mui/material';
-import usePhoneBookStore from '../store/usePhonebookStore';
+import usePhoneBookStore from '../store/usePhoneBookStore';
 
 const ContactList = () => {
   const {phoneBook,deleteContact} = usePhoneBookStore();
